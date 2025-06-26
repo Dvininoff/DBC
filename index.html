@@ -69,23 +69,80 @@
       font-size: 0.9rem;
       color: #444;
     }
-  </style>
+. </style>
 </head>
 <body>
+<div>
+ <button   type="button" >About Me
+  <style>
+    button {
+      background: royalblue;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 500;
+      position: absolute;
+      right: 10px;
+      top: 50px;
+      transition: all 0.3s ease;
+   display: inline-block; }
+  button:hover {
+      background: deepskyblue ;
+      transform: scale(1.05);
+      color: black;
+    }
+  </style>
+ </button>
+  <button   type="button" >Projects
+    <style>
+      button {
+        background: royalblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        position: absolute;
+        right: 100px;
+        top: 300px;
+        transition: all 0.3s ease;
+        display: inline-block; }
+      button:hover {
+        background: deepskyblue ;
+        transform: scale(1.05);
+        color: black;
+      }
+    </style>
+  </button>
+</div>
+
 <div class="card">
-  <div class="initials">{PD}</div>
+  <div class="initials">
+  <img src="logo.png" alt="avatar"
+  width="100"
+  hight="100"/>
+    <style>
+      img {border-radius: 50%;}
+    </style>
+  </div>
+
   <h1>Pavel Dvininov</h1>
-  <p class="title">Front-End and Drinking Beer Specialist</p>
+  <p class="title">Front-End Specialist</p>
 
   <p class="contact">📧 paveldvininov@gmail.com</p>
   <p class="contact">📞 +373 6917 9908</p>
 
   <div class="social">
-    <a href="https://www.linkedin.com/in/pavel-dvininov-185b8b370">LinkedIn</a> |
-    <a href="https://github.com/Dvininoff">GitHub</a>
+    <a href="https://www.linkedin.com/in/pavel-dvininov-185b8b370" target="blank">LinkedIn </a> |
+    <a href="https://github.com/Dvininoff" target="blank">GitHub</a>
   </div>
 
-  <p class="tagline">"Code. Beer. Everyday"</p>
+
 </div>
 </body>
 </html>
